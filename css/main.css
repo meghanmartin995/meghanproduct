@@ -121,8 +121,34 @@ p {
 }
 
 
+@media screen and (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  h1 {
+  font-size: 4.8vw;
+}
 
+  h2 {
+    font-size: 4.3vw;
+  }
 
+  p {
+    font-size: 3.9vw;
+  }
+  h3 {
+    font-size: 4.5vw;
+  }
+  .work {
+    justify-content: center;
+  }
+  .link {
+    font-size: 3.2vw;
+  }
+  .info {
+    padding-bottom: 24px;
+  }
+}
 
 
 
