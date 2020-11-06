@@ -126,24 +126,24 @@ p {
     text-align: center;
   }
   h1 {
-  font-size: 4.8vw;
+  font-size: 5vw;
 }
 
   h2 {
-    font-size: 4.3vw;
+    font-size: 4.5vw;
   }
 
   p {
-    font-size: 3.9vw;
+    font-size: 4.2vw;
   }
   h3 {
-    font-size: 4.5vw;
+    font-size: 4vw;
   }
   .work {
     justify-content: center;
   }
   .link {
-    font-size: 3.2vw;
+    font-size: 3.5vw;
   }
   .info {
     padding-bottom: 24px;
