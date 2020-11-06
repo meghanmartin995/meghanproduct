@@ -11,28 +11,33 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@font-face { font-family: Adieu; src: url('Adieu-Regular.woff'); }
+@font-face { font-family: Good Sans; font-weight: bold; src: url('GoodSans-Regular.woff');}
+
+
 nav {
   text-align: center;
+  padding-bottom: 4px;
 }
 
 h3 {
-  font-size: 2.2vw;
+  font-size: 3vw;
+  font-family: Adieu;
 }
 
-.content {
+.info {
   padding-left: 6%;
   padding-right: 8%;
-  max-width: 1600px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
 
 h1 {
-  font-size: 3.6vw;
+  font-size: 3.3vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 2.9vw;
 }
 
 p {
@@ -43,8 +48,16 @@ p {
   max-width: 912px;
 }
 
-.info {
-  max-width: 1100px;
+.border {
+  border-bottom: 3px solid white;
+}
+
+.info h1 {
+  max-width: 1400px;
+}
+
+.info h2 {
+  max-width: 1300px;
 }
 
 .work {
@@ -52,7 +65,60 @@ p {
   margin-right: 60px;
 }
 
+.work .univers {
+  padding-right: 60px;
+}
 
+.work p {
+  margin-top: 0px;
+}
+
+.link {
+  font-size: 2.2vw;
+  padding-right: 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.pink {
+  color: #FFC0C0;
+}
+
+.blue {
+  color: #B6D7FF;
+}
+
+.green {
+  color: #CDFFE7;
+}
+
+.yellow {
+  color: #FFFBDC;
+}
+
+.purple-light {
+  color: #E8D7FF;
+}
+
+.purple-dark {
+  color: #B1AFFF;
+}
+
+.orange {
+  color: #FFC0C0;
+}
+
+.yellow {
+  color: #FFFBDC;
+}
+
+.orange-light {
+  color: #FEEEC6;
+}
+
+.pinky {
+  color: #FADBFF;
+}
 
 
 
@@ -65,6 +131,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   background: #161616;
+  font-family: Good Sans;
 }
 
 /*
