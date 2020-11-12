@@ -141,9 +141,11 @@ p {
   }
   .work {
     justify-content: center;
+    margin: 0 auto;
   }
   .link {
     font-size: 4.4vw;
+    padding: 0 20px 0 20px;
   }
   .info {
     padding-bottom: 24px;
