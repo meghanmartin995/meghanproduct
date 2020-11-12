@@ -45,7 +45,8 @@ p {
 }
 
 .currently {
-  max-width: 912px;
+  /*max-width: 912px;*/
+  padding-right: 15%;
 }
 
 .border {
@@ -53,11 +54,11 @@ p {
 }
 
 .info h1 {
-  max-width: 1400px;
+  /*max-width: 1400px;*/
 }
 
 .info h2 {
-  max-width: 1300px;
+  /*max-width: 1300px;*/
 }
 
 .work {
