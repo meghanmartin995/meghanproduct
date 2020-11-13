@@ -151,6 +151,9 @@ p {
   .info {
     padding-bottom: 24px;
   }
+  .currently {
+    padding-right: 0;
+  }
 }
 
 
