@@ -156,6 +156,31 @@ p {
   }
 }
 
+.univers-hover:hover {
+    position: relative;
+    cursor: grab;
+}
+.univers-hover:hover:after {
+    content: url(../img/univers.png);
+    display: block;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+
+
+.fitw-hover:hover {
+    position: relative;
+    cursor: grab;
+}
+.fitw-hover:hover:after {
+    content: url(../img/fitw.png);
+    display: block;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+}
+
 
 
 html {
